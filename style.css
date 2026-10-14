@@ -6,16 +6,19 @@ body {
 	margin: 0;
 	text-align: center;
 	color: var(--primary-text-color);
+	background-color: var(--primary-bg-color);
 }
 
 :root {
 	--primary-text-color: black;
+	--primary-bg-color: white;
 }
 
 
 @media (prefers-color-scheme: dark) {
 	:root {
 		--primary-text-color: white;
+		--primary-bg-color: black;
 	}
 }
 
