@@ -5,6 +5,18 @@ body {
 	min-height: 100vh;
 	margin: 0;
 	text-align: center;
+	text-color: var(--primary-text-color);
+}
+
+:root {
+	--primary-text-color: black;
+}
+
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--primary-text-color: white;
+	}
 }
 
 div.top {
