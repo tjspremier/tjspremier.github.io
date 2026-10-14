@@ -7,6 +7,7 @@ body {
 	text-align: center;
 	color: var(--primary-text-color);
 	background-color: var(--primary-bg-color);
+	transition-time: 0.5s;
 }
 
 :root {
