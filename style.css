@@ -29,7 +29,7 @@ div.top {
 	padding: 10px;
 	width: 100%;
 	min-height: 20%;
-	position: absolute;
+	position: relative;
 }
 
 div.top h1,p {
